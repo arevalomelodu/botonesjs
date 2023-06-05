@@ -94,7 +94,7 @@ h2{
     transition: 1s;
     background: aqua;
 }
-#figurab.abajo{
+#figura.abajo{
     transform: translateY(250);
     transition: 1s;
     background:aquamarine;
