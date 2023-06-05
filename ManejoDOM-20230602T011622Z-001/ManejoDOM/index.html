@@ -6,30 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     
-    <title>Figuras con JS</title>
+    <title>Figuras Du HTML, CSS, Y JS. </title>
 </head>
-<body>
+<bod>
     <section>
         <div class="cont-botones">
-            <h2>BOTONE DE INTERACCIÓN</h2>
+            <h2>BOTONES DE INTERACCIÓN</h2>
             <button onclick="circulo()">Círculo</button>
-            <button onclick="rectangulo()">Rrectángulo</button>
+            <button onclick="rectangulo()">Rectángulo</button>
             <button onclick="degradado()">Degradado</button>
             <button onclick="gif()">Gif</button>
-            <button>Arriba</button>
-            <button>Abajo</button>
-            <button>Izquierda</button>
-            <button>Derecha</button>
-            <button>Diagonal</button>
-            <button>Panel Lateral</button>
-            <button>Modal Login</button>
+            <button onclick="arriba()">Arriba</button>
+            <button onclick="abajo()">Abajo</button>
+            <button onclick="izquierda()">Izquierda</button>
+            <button onclick="derecha()">Derecha</button>
+            <button onclick="diagonal()">Diagonal</button>
+            <button onclick="animationOndas()">Animacion Ondas </button>
+          
+
+            <button onclick="panelLateral()">Panel Lateral</button>
+            <button onclick="modal()">Modal Login</button>
         </div>
         <div class="cont-figura">
             <h2>FIGURA</h2>
             <div id="figura"></div>
         </div>
     </section>
-    
+    <div class="panel" >
+
+        <h2> Menú Principal</h2>
+
+        <a href="#">Home</a>
+
+
+
+        <a href="#">Quienes somos?</a>
+
+        <a href="#">Productos</a>
+
+        <a href="#">Contacto</a>
+
+
+
+    </div>
+
+    <div id="modal">
+
+        <div class="cont-login"> 
+            <h2> Iniciar Sesión</h2>
+
+            <button id="cerrar" onclick="modal()">X</button> 
+            <form action="#">
+
+
+
+                <input type="email" placeholder="Usuario”>
+
+                <input type="password" placeholder="*****">
+
+
+                <button>Ingresar</button>
+
+        </form>
+
+        </div>
+
+
+
+
+
+
+
+
+        </div>
     <script src="js/main.js"></script>
 </body>
 </html>

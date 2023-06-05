@@ -56,8 +56,8 @@ h2{
 }
 
 .cont-figura #figura{
-    width: 369px;
-    height: 369px;
+    width: 220px;
+    height: 220px;
     background: white;
     margin: 40px auto;
     transition: 1s;
@@ -66,6 +66,7 @@ h2{
 #figura.circulo{
     border-radius: 50%;
     transition: 1s;
+    background-image: ;
 }
 
 #figura.rectangulo{
@@ -75,10 +76,44 @@ h2{
 }
 
 #figura.degrade{
-    background: linear-gradient(blue, white,black);
-    transition: 1s;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient( to blue, white,black);
+   
 }
 
-#figura.animacion{
-    background-image: url("../img/minion.gif");
+#figura.gif{
+    background: url("../img/.gif");
+    width: 500px;
+    height: 500px;
+    transition: 1s;
+
+}
+#figura.arriba{
+    transform: translateY(-250px);
+    transition: 1s;
+    background: aqua;
+}
+#figurab.abajo{
+    transform: translateY(250);
+    transition: 1s;
+    background:aquamarine;
+}
+#figura.izquierda{
+    transform: translateX(-150px);
+    background:aqua;
+    transition: 1s;
+
+}
+#figura.derecha {
+    transform: translateX(150px);
+    background-color: aqua;
+    transform: 1s;
+}
+#figura.diagonal {
+    background-color: aquamarine;
+    transform: translate(-150px, 150px);
+    transition: 1s;
+    
+
 }
