@@ -66,7 +66,7 @@ h2{
 #figura.circulo{
     border-radius: 50%;
     transition: 1s;
-    background-image: ;
+    background:coral;
 }
 
 #figura.rectangulo{
